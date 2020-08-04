@@ -6,31 +6,46 @@ body, html{
 header{
     display: flex;
     border-top: 3px solid rgb(85, 228, 85);
-    margin: 5px 0px;
+    margin-top: 5px;
     font-size: 16px;
+    padding: 0;
 }
 .navbar{
     display: flex;
     margin: 0 15em;
     width: 100%;
+    padding: 0;
     align-items: center;
 }
+ul{
+    margin: 0;
+    padding: 0;
+}
 .logo img{
-    height: 3.5em;
+    height: 50px;
+    width: 120px;
     margin-right: 50px;
+    margin-bottom: -5px;
+    margin-top: -2px;
 }
 .menu, li{
     display: flex;
     list-style: none;
-    padding: 14px 16px;
-    margin: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+    padding: 0;
 }
 a{
     text-decoration: none;
     color: black;
+    padding: 14px 16px;
 }
 .active{
-    background-color: rgb(118, 230, 7);
+    background-color: #45B42E;
+    color: white;
+}
+a:hover{
+    background-color: #45B42E;
     color: white;
 }
 .phone{
@@ -49,8 +64,8 @@ span a {
     display: flex;
     margin: 0 15em;
     justify-content: center;
-    background: rgb(247,249,247);
-    background: linear-gradient(0deg, rgba(247,249,247,1) 78%, rgba(230,232,230,1) 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 88%, rgba(230,232,230,1) 100%);
 }
 .container div{
     width: 30%;
