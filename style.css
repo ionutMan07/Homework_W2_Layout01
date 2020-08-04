@@ -1,24 +1,96 @@
 body, html{
-    margin:0;
+    margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    justify-content: center;
 }
 header{
-    border-top: 3px solid green;
-    margin: 5px 10em;
+    display: flex;
+    border-top: 3px solid rgb(85, 228, 85);
+    margin: 5px 0px;
+    font-size: 16px;
+}
+.navbar{
+    display: flex;
+    margin: 0 15em;
+    width: 100%;
+    align-items: center;
+}
+.logo img{
+    height: 3.5em;
+    margin-right: 50px;
+}
+.menu, li{
+    display: flex;
+    list-style: none;
+    padding: 14px 16px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    background-color: rgb(118, 230, 7);
+    color: white;
+}
+.phone{
+    display: flex;
+    margin-left: auto;
+}
+span > a > img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+span a {
+    padding-left: 5px;
+}
+.container{
+    display: flex;
+    margin: 0 15em;
+    justify-content: center;
+    background: rgb(247,249,247);
+    background: linear-gradient(0deg, rgba(247,249,247,1) 78%, rgba(230,232,230,1) 100%);
+}
+.container div{
+    width: 30%;
+    height: 50%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header{
+    border-top: 3px solid rgb(85, 228, 85);
+    margin: 5px 0px;
     font-size: 14px;
-    width: 960px;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .navbar{
     display: flex;
     height: 2.5em;
     width: 100%;
 }
-.logo > img{
+.logo > a > img{
     height: 100%;
 }
-.menu{
+.menu, li a{
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -27,7 +99,7 @@ header{
 li {
     padding: 0 1rem;
 }
-span > img {
+.phone > img {
     height: 1.5em;
     border-radius: 50%;
 }
@@ -35,8 +107,17 @@ span > img {
     display: flex;
     margin-left: 5em;
     padding: 0.7em 3em;
-}
+} 
 .nr{
     padding-left: 0.5em;
     padding-top: 0.2em;
 }
+.container{
+    display: flex;
+}
+.container > div{
+    width: 30%;
+    height: 40%;
+    background: rgb(247,249,247);
+    background: linear-gradient(0deg, rgba(247,249,247,1) 29%, rgba(179,180,179,1) 85%);
+} */
