@@ -74,7 +74,6 @@ span a {
     margin: 50px 20px;
     border: 1px solid rgb(201, 197, 197);
     line-height: 25px;
-    /* padding: 40px; */
 }
 h1{
     width: 50px;
@@ -84,7 +83,6 @@ h1{
     color: white;
     text-align: center;
     padding: 20px 10px;
-    /* margin: auto 0px; */
     font-size: 25px;
     letter-spacing: 5px;
     display: block;
