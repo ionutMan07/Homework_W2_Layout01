@@ -17,6 +17,7 @@ header{
     margin: 0 auto;
     width: 100%;
     align-items: center;
+    overflow: hidden;
 }
 ul{
     margin: 0;
@@ -35,6 +36,7 @@ ul{
     margin-left: auto;
     flex-wrap: wrap;
     padding: 0;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -62,18 +64,32 @@ span > a > img{
 span a {
     padding-left: 5px;
 }
+@media screen and (max-width: 600px){
+    .navbar{
+        align-items: flex-start;
+        margin:0;
+        padding: 0;}
+    }
 .container{
-    display: flex;
-    margin: 0 15em;
-    justify-content: center;
+    max-width: 1090px;
+    margin: 0 auto;
+    padding: 50px;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 88%, rgba(230,232,230,1) 100%);
 }
-.container > div{
-    width: 200px;
-    margin: 50px 20px;
-    border: 1px solid rgb(201, 197, 197);
-    line-height: 25px;
+.boxes{
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    flex-basis: 25%;
+    border: 1px solid rgb(209, 207, 207);
+}
+
+@media screen and (min-width: 600px){
+    .container{
+        display:flex;
+        justify-content: space-around;
+    }
 }
 h1{
     width: 50px;
@@ -87,8 +103,12 @@ h1{
     letter-spacing: 5px;
     display: block;
 }
+h3{
+    font-weight: 900;
 }
-
+p{
+    line-height: 25px;
+}
 
 
 
