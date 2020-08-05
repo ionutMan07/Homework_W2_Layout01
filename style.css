@@ -4,8 +4,9 @@ body, html{
     justify-content: center;
     font-family: 'Roboto', sans-serif;
 }
-/********Start Header Nav Bar************/
+
 /*****Start Main box for 3 elements *****/
+
 header{
     border-top: 3px solid #45B42E;
     margin-top: 5px;
@@ -16,8 +17,10 @@ header{
     margin: 0 auto;
     align-items: center;
 }
+
 /*****End Main box for 3 elements ******/
 /*****Start 1st element Logo ***********/
+
 .logo img{
     height: 50px;
     width: 120px;
@@ -25,8 +28,10 @@ header{
     margin-bottom: -5px;
     margin-top: -2px;
 }
+
 /*****End 1st element Logo ***********/
 /*****Start 2nd element Nav **********/
+
 ul{
     margin: 0;
     padding: 0;
@@ -52,8 +57,10 @@ a:hover{
     background-color: #45B42E;
     color: white;
 }
+
 /*****End 2nd element Nav **********/
 /*****Start 3nd element Phone ******/
+
 .phone{
     display: flex;
     margin-left: auto;
@@ -67,8 +74,8 @@ span > a > img{
 span a {
     padding-left: 5px;
 }
-/*****End 3nd element Phone and Header *******/
 
+/*****End 3nd element Phone and Header *******/
 /******** Start Content Box************/
 .container{
     max-width: 1090px;
@@ -102,15 +109,19 @@ h3{
 p{
     line-height: 25px;
 }
+
 /******** End Content Box************/
 /******** Responsive Content*********/
+
 @media screen and (min-width: 600px){
     .container{
         display:flex;
         justify-content: space-around;
     }
 }
+
 /******** Responsive Nav, work in progres******/
+
 @media screen and (max-width: 600px){
     .navbar,img{
         display:inline-block;

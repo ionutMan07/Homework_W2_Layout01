@@ -1,0 +1,48 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: inline-flex;
+    max-width: 960px;
+    justify-content: center;
+    align-items: center;
+    max-height: 65px;
+    border-top: 5px solid rgba(25, 202, 134, 0.863);
+    flex-wrap: wrap;
+}
+.menu{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+ul, li, a{
+    text-decoration: none;
+    list-style:none;
+    color: black;
+    padding: 0 10px;
+}
+
+.picture,img{
+    height: 50px;
+    width: 120px;
+    padding: 0;
+}
+.phone img{
+    display: inline-flex;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    padding: 0 5px;
+}
+.active{
+    background-color: #45B42E;
+    color: white;
+}
+a:hover{
+    background-color: #45B42E;
+    color: white;
+}
