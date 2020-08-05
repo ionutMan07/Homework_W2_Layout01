@@ -2,14 +2,15 @@ body, html{
     margin: 0;
     padding: 0;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif   
 }
 .container{
     display: inline-flex;
     max-width: 960px;
     justify-content: center;
     align-items: center;
-    max-height: 65px;
+    margin-left: 300px;
+
     border-top: 5px solid rgba(25, 202, 134, 0.863);
     flex-wrap: wrap;
 }
@@ -19,17 +20,19 @@ body, html{
     justify-content: space-around;
     align-content: center;
 }
-ul, li, a{
+ul, li a{
     text-decoration: none;
     list-style:none;
     color: black;
     padding: 0 10px;
 }
-
+.logo{
+    height: 50px;
+}
 .picture,img{
     height: 50px;
     width: 120px;
-    padding: 0;
+
 }
 .phone img{
     display: inline-flex;
@@ -46,3 +49,10 @@ a:hover{
     background-color: #45B42E;
     color: white;
 }
+@media screen and (max-width: 600px){
+    .container,img,.phone{
+        display:inline-block;
+        font-size: 10px;
+        margin:0;
+        padding: 0;}
+    }
