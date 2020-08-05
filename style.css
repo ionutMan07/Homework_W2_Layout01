@@ -28,7 +28,9 @@ header{
     margin-bottom: -5px;
     margin-top: -2px;
 }
-
+.logo a:hover{
+    background: none;
+}
 /*****End 1st element Logo ***********/
 /*****Start 2nd element Nav **********/
 
