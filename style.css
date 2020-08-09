@@ -37,7 +37,9 @@ header{
 
 ul{
     list-style: none;
+    margin: 0 auto;
     padding: 0;
+    margin-right: 100px;
 }
 
 .menu li.active, .menu li:hover{
@@ -98,10 +100,11 @@ p{
         justify-content: space-around;
     }
 }
-@media screen and (max-width: 600px){
-    header, .logo, .menu li, .contact img{
+@media screen and (max-width: 700px){
+    header, .logo, .menu li, .contact img, ul{
         display: inline-block;
         font-size: 10px;
         margin: 0;
-        padding: 0;}
+        padding: 0;
+    margin-right: 0;}
     }
