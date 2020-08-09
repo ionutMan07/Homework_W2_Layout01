@@ -37,7 +37,6 @@ header{
 
 ul{
     list-style: none;
-    margin: 0;
     padding: 0;
 }
 
@@ -101,7 +100,7 @@ p{
 }
 @media screen and (max-width: 600px){
     header, .logo, .menu li, .contact img{
-        display:inline-block;
+        display: inline-block;
         font-size: 10px;
         margin: 0;
         padding: 0;}
